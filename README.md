@@ -65,7 +65,7 @@ Exploratory Data Analysis (EDA) with matplotlib and seaborn
 ⚙️ Installation & Setup
 
 1️⃣ Clone the repository
-git clone https://github.com/your-username/Netflix_Data_ML_Model.git
+git clone [https://github.com/your-username/Netflix_Data_ML_Model.git](https://github.com/Alay7767/Machine-Learning-Model-on-Netflix-World-Data.git)
 cd Netflix_Data_ML_Model
 
 2️⃣ Create and activate a virtual environment
