@@ -6,13 +6,11 @@
 This project applies machine learning classification techniques to analyze and predict content attributes in the Netflix dataset.
 The primary objective is to build models that can classify whether a title on Netflix is a Movie or a TV Show based on metadata such as genre, country, release year, and other available features.
 
-Two models are trained and compared:
 
-Random Forest Classifier
-
-Logistic Regression
+Two models are trained and compared: Random Forest Classifier, Logistic Regression
 
 The models are evaluated on accuracy and performance metrics such as confusion matrix and classification report.
+
 
 📊 Dataset
 
@@ -33,6 +31,7 @@ listed_in	Genres or categories
 description	Brief summary of the title
 
 The target variable for this model is type (Movie vs. TV Show).
+
 
 🧩 Features
 
@@ -90,6 +89,7 @@ matplotlib
 seaborn
 scikit-learn
 
+
 🚀 Model Training & Evaluation
 
 Both models are trained using the same preprocessed dataset and evaluated with standard metrics.
@@ -100,6 +100,7 @@ from sklearn.preprocessing import LabelEncoder, StandardScaler
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import classification_report, accuracy_score, confusion_matrix
+
 
 Metrics Used:
 
@@ -113,6 +114,8 @@ Example output:
 Model	Accuracy	Notes
 RandomForestClassifier	~95%	Performs better on non-linear relationships
 LogisticRegression	~88%	Faster, interpretable baseline
+
+
 📈 Visualization
 
 The notebook also includes exploratory plots such as:
@@ -124,6 +127,7 @@ Content release trends over the years
 Genre frequency
 
 Correlation heatmaps
+
 
 🧭 Future Improvements
 
