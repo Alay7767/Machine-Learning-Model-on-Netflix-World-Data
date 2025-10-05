@@ -1,4 +1,6 @@
-📘 README.md — Netflix Data Machine Learning Model
+# Netflix Data Machine Learning Model
+
+
 🧠 Project Overview
 
 This project applies machine learning classification techniques to analyze and predict content attributes in the Netflix dataset.
